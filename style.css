@@ -103,6 +103,7 @@ button {
     width: 40px;
     height: 40px;
     background-color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .searchcart>li {
@@ -122,12 +123,23 @@ button {
     border: none;
     background-color: transparent;
     padding: 20px;
+    cursor: pointer;
+}
+
+.search input[type=text] {
+    color: #2c71b8;
+    font-size: 21px;
+    font-weight: 100;
 }
 
 .search input::placeholder {
     color: #2c71b8;
     font-size: 21px;
     font-weight: 100;
+}
+
+.search input:focus::placeholder {
+    color: transparent;
 }
 
 .search input:focus {
@@ -330,6 +342,7 @@ li.productsmenu:hover .arrowdownwhite {
     width: 30px;
     height: 30px;
     opacity: 0;
+    cursor: pointer;
 }
 
 .zoom-pic-hover:hover {
@@ -355,6 +368,7 @@ li.productsmenu:hover .arrowdownwhite {
     width: 30px;
     height: 30px;
     opacity: 0;
+    cursor: pointer;
 }
 
 .like-pic-hover:hover {
